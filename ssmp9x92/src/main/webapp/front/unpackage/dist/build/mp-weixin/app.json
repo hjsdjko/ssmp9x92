@@ -1,0 +1,81 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/shop-recharge/recharge",
+    "pages/shop-cart/shop-cart",
+    "pages/shop-order-confirm/shop-order-confirm",
+    "pages/shop-address/shop-address",
+    "pages/shop-address-detail/shop-address-detail",
+    "pages/shop-order/shop-order",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/shangjia/list",
+    "pages/shangjia/add-or-update",
+    "pages/shangjia/detail",
+    "pages/lvyoujingdian/list",
+    "pages/lvyoujingdian/add-or-update",
+    "pages/lvyoujingdian/detail",
+    "pages/jingdianleixing/list",
+    "pages/jingdianleixing/add-or-update",
+    "pages/jingdianleixing/detail",
+    "pages/jingdianluxian/list",
+    "pages/jingdianluxian/add-or-update",
+    "pages/jingdianluxian/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/discusslvyoujingdian/list",
+    "pages/discusslvyoujingdian/add-or-update",
+    "pages/discusslvyoujingdian/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "智慧乡村旅游服务平台小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#FFEA00",
+    "borderStyle": "black",
+    "backgroundColor": "#990033",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/lvyoujingdian/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "旅游景点"
+      },
+      {
+        "pagePath": "pages/jingdianluxian/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "景点路线"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
